@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   vec_algebra.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hsouza-s <hsouza-s@student.42.rio>         +#+  +:+       +#+        */
+/*   By: hsouza-s <hsouza-s@student.42.rio>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 17:25:58 by hsouza-s          #+#    #+#             */
-/*   Updated: 2023/05/27 19:16:24 by hsouza-s         ###   ########.fr       */
+/*   Updated: 2026/06/14 15:08:28 by hsouza-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 float	ft_norm(const float a[3])
 {

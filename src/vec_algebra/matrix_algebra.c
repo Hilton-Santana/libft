@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   matrix_algebra.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hsouza-s <hsouza-s@student.42.rio>         +#+  +:+       +#+        */
+/*   By: hsouza-s <hsouza-s@student.42.rio>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 02:40:31 by hsouza-s          #+#    #+#             */
-/*   Updated: 2023/05/27 19:14:22 by hsouza-s         ###   ########.fr       */
+/*   Updated: 2026/06/14 15:08:28 by hsouza-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 void	zero_matrix_4(float mat[4][4], int n_rows, int n_cols)
 {

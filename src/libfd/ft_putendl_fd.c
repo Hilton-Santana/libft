@@ -6,11 +6,11 @@
 /*   By: hsouza-s <hsouza-s@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/30 21:29:42 by hsouza-s          #+#    #+#             */
-/*   Updated: 2022/08/30 21:34:02 by hsouza-s         ###   ########.fr       */
+/*   Updated: 2026/06/14 15:15:59 by hsouza-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
 {

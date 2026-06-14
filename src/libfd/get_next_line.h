@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hsouza-s <hsouza-s@student.42.rio>         +#+  +:+       +#+        */
+/*   By: hsouza-s <hsouza-s@student.42.rio>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/04 22:42:54 by hsouza-s          #+#    #+#             */
-/*   Updated: 2023/06/01 17:26:04 by hsouza-s         ###   ########.fr       */
+/*   Updated: 2026/06/14 15:09:14 by hsouza-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <unistd.h>
 # include <stdlib.h>
-# include "../../libft.h"
+# include "../libft.h"
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 3000

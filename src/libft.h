@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hsouza-s <hsouza-s@student.42.rio>         +#+  +:+       +#+        */
+/*   By: hsouza-s <hsouza-s@student.42.rio>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/31 15:47:14 by hsouza-s          #+#    #+#             */
-/*   Updated: 2023/05/27 17:50:00 by hsouza-s         ###   ########.fr       */
+/*   Updated: 2026/06/14 15:13:52 by hsouza-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <unistd.h>
 # include <math.h>
 # include <stdarg.h>
-# include "src/libfd/get_next_line.h"
+# include "libfd/get_next_line.h"
 
 typedef struct s_list
 {

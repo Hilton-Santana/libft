@@ -6,11 +6,11 @@
 /*   By: hsouza-s <hsouza-s@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/23 22:58:13 by hsouza-s          #+#    #+#             */
-/*   Updated: 2023/05/27 19:12:15 by hsouza-s         ###   ########.fr       */
+/*   Updated: 2026/06/14 15:15:57 by hsouza-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 int	ft_putchar_fd(char c, int fd)
 {

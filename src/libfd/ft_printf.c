@@ -6,11 +6,11 @@
 /*   By: hsouza-s <hsouza-s@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/27 17:34:27 by hsouza-s          #+#    #+#             */
-/*   Updated: 2023/05/27 17:52:31 by hsouza-s         ###   ########.fr       */
+/*   Updated: 2026/06/14 15:15:54 by hsouza-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 static int	ft_format(va_list ptr, const char type)
 {

@@ -6,11 +6,11 @@
 /*   By: hsouza-s <hsouza-s@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/27 17:30:15 by hsouza-s          #+#    #+#             */
-/*   Updated: 2023/05/27 17:31:10 by hsouza-s         ###   ########.fr       */
+/*   Updated: 2026/06/14 15:15:51 by hsouza-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 int	ft_long_to_hex(unsigned long ptr)
 {

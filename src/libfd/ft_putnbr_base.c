@@ -6,11 +6,11 @@
 /*   By: hsouza-s <hsouza-s@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/27 17:27:15 by hsouza-s          #+#    #+#             */
-/*   Updated: 2023/05/27 19:12:29 by hsouza-s         ###   ########.fr       */
+/*   Updated: 2026/06/14 15:16:02 by hsouza-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 static char	ft_hex_format(int dig, char format)
 {
