@@ -14,7 +14,6 @@ add_custom_command(TARGET libft POST_BUILD
 # Export includes as interface
 target_include_directories(libft INTERFACE
                            $<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}/include>
-                           $<INSTALL_INTERFACE:include>
 )
 
 add_subdirectory(src)
