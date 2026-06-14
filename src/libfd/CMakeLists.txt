@@ -21,12 +21,10 @@ get_filename_component(CURRENT_MODULE_NAME
 
 foreach(export ${exports})
     set(src_header ${CMAKE_CURRENT_SOURCE_DIR}/${export})
-    set(dst_header ${CMAKE_BINARY_DIR}/include/libft/${CURRENT_MODULE_NAME}/${export})
+    set(dst_header ${PROJECT_BINARY_DIR}/include/libft/${CURRENT_MODULE_NAME}/${export})
 
     add_custom_command(
         OUTPUT ${dst_header}
-        COMMAND ${CMAKE_COMMAND} -E make_directory
-                ${CMAKE_BINARY_DIR}/include/libft/${CURRENT_MODULE_NAME}
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
                 ${src_header}
                 ${dst_header}
