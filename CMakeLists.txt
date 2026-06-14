@@ -4,12 +4,18 @@ project(libft C)
 
 add_library(libft STATIC "")
 
-add_custom_command(TARGET libft POST_BUILD
+add_custom_command(OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/include/libft/libft.h
                    COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_CURRENT_SOURCE_DIR}/src/libft.h 
                    ${CMAKE_CURRENT_BINARY_DIR}/include/libft/libft.h
                    COMMENT "Copying libft.h to build directory"
                    DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/src/libft.h
 )
+
+add_custom_target(libft_header ALL
+                  DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/include/libft/libft.h
+)
+
+add_dependencies(libft libft_header)
 
 # Export includes as interface
 target_include_directories(libft INTERFACE
