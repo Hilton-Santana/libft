@@ -16,4 +16,7 @@ target_include_directories(libft INTERFACE
                            $<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}/include>
 )
 
+# Link math library
+target_link_libraries(libft PUBLIC m)
+
 add_subdirectory(src)
