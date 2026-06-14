@@ -1,6 +1,6 @@
 # Libft
 
-First project of Level 0 42 grade school. It involves reproducing important functions of the standard library of C. 
+Required project of 42's school Level 0. It involves reproducing important functions of the standard library of C. 
 We added a CMakeLists.txt at the source to allow cross-platform compilation.
 
 # Compiling
